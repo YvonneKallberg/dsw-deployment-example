@@ -27,3 +27,6 @@ mail:
   authEnabled:
   username:
   password:
+
+logging:
+  level: DEBUG

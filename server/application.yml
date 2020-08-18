@@ -1,4 +1,5 @@
 general:
+  environment: Development
   clientUrl: http://localhost:8080
   secret: b7zFNUhFYIFLmDSFKFkp0Bnp8Z3uWGnH
   serviceToken: NlQSNbGvh7EtcpinGnHE9g91
@@ -12,6 +13,7 @@ database:
   password:
 
 messaging:
+  enabled: false
   username: guest
   password: guest
 

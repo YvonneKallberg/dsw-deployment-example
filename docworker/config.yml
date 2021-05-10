@@ -1,16 +1,11 @@
-mongo:
-  host: mongo
-  port: 27017
-  database: wizard
+database:
+  connectionString: postgresql://postgres:postgres@postgres:5432/engine-wizard
 
-mq:
-  host: rabbitmq
-  port: 5672
-  vhost: /
-  queue: document.generation
-  auth:
-    username: guest
-    password: guest
+s3:
+  url: http://minio:9000
+  username: minio
+  password: minioPassword
+  bucket: engine-wizard
 
 logging:
   level: INFO
